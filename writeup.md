@@ -17,6 +17,7 @@
 [image2]: ./misc_images/misc3.png
 [image3]: ./misc_images/misc2.png
 
+[imageT]: ./misc_images/T.png
 ## [Rubric](https://review.udacity.com/#!/rubrics/972/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
 
@@ -46,8 +47,11 @@ Links | alpha(i-1)  | a(i-1)  | d(i-1)  | theta(i)
 
 #### 2. Using the DH parameter table you derived earlier, create individual transformation matrices about each joint. In addition, also generate a generalized homogeneous transform between base_link and gripper_link using only end-effector(gripper) pose.
 
+The general form of the transformation matrix, based on the DH convention, is:
 
+![Transformation Matrix T][imageT]
 
+Using the above formula, we derive the individual transformation matrices about each joint:
 
 #### 3. Decouple Inverse Kinematics problem into Inverse Position Kinematics and inverse Orientation Kinematics; doing so derive the equations to calculate all individual joint angles.
 
