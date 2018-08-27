@@ -18,6 +18,14 @@
 [image3]: ./misc_images/misc2.png
 
 [imageT]: ./misc_images/T.png
+[imageT0_1]: ./misc_images/T0_1.png
+[imageT1_2]: ./misc_images/T1_2.png
+[imageT2_3]: ./misc_images/T2_3.png
+[imageT3_4]: ./misc_images/T3_4.png
+[imageT4_5]: ./misc_images/T4_5.png
+[imageT5_6]: ./misc_images/T5_6.png
+[imageT6_7]: ./misc_images/T6_7.png
+
 ## [Rubric](https://review.udacity.com/#!/rubrics/972/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
 
@@ -52,6 +60,13 @@ The general form of the transformation matrix, based on the DH convention, is:
 ![Transformation Matrix T][imageT]
 
 Using the above formula, we derive the individual transformation matrices about each joint:
+![Transformation Matrix T0_1][imageT0_1] <br />
+![Transformation Matrix T1_2][imageT1_2] <br />
+![Transformation Matrix T2_3][imageT2_3]<br />
+![Transformation Matrix T3_4][imageT3_4]<br />
+![Transformation Matrix T4_5][imageT4_5]<br />
+![Transformation Matrix T5_6][imageT5_6]<br />
+![Transformation Matrix T6_7][imageT6_7]<br />
 
 #### 3. Decouple Inverse Kinematics problem into Inverse Position Kinematics and inverse Orientation Kinematics; doing so derive the equations to calculate all individual joint angles.
 
