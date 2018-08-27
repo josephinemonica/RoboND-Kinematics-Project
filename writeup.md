@@ -86,12 +86,12 @@ Since the arm has a spherical wrist, the inverse kinematics problem can be decou
 
 ##### Positioning (Involving &theta;&#8321;, &theta;&#8322;, and &theta;&#8323;)
 * Find the location of the wrist center (wc) relative to the base frame.
-![Location of wrist center][wc_location]
+![Location of wrist center][wc_location]<br/>
 * Find joint angles (&theta;&#8321;, &theta;&#8322;, abd &theta;&#8323;) that result to such wrist center position
-![alt text][image2]
+![alt text][image2]<br/>
 
-Look at the picture above. 1,2, and 3 indicate joint 1, joint 2, and joint 3 respectively. From the picture above, we can find the length for the three sides (A, B, and C) of the triangle as follows: 
-![side A][A]<br/>
+Look at the picture above. 2 and 3 indicate joint 2 and joint 3, while WC indicates the wrist center. We can find the length for the three sides (A, B, and C) of the triangle as follows: <br/>
+![side A][A]<br />
 ![side B][B]<br/>
 ![side C][C]<br/>
 
@@ -100,7 +100,7 @@ Then, we can get the three angles a,b, and c using Cosine Law: <br/>
 ![b_angle][b_angle]<br/>
 ![c_angle][c_angle]<br/>
 
-Finally, we can derive the expressions for &theta;&#8321;, &theta;&#8322;, and &theta;&#8323;
+Finally, we can derive the expressions for &theta;&#8321;, &theta;&#8322;, and &theta;&#8323;<br/>
 ![theta1][theta1]<br/>
 ![theta 2 and 3][theta2n3]<br/>
 
