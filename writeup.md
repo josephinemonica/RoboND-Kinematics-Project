@@ -26,6 +26,15 @@
 [imageT5_6]: ./misc_images/T5_6.png
 [imageT6_7]: ./misc_images/T6_7.png
 
+[A]: ./misc_images/A.png
+[B]: ./misc_images/B.png
+[C]: ./misc_images/C.png
+[a_angle]: ./misc_images/a_angle.png
+[b_angle]: ./misc_images/b_angle.png
+[c_angle]: ./misc_images/c_angle.png
+[theta1]: ./misc_images/theta1.png
+[theta2n3]: ./misc_images/theta2n3.png
+
 ## [Rubric](https://review.udacity.com/#!/rubrics/972/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
 
@@ -77,6 +86,18 @@ Since the arm has a spherical wrist, the inverse kinematics problem can be decou
 * Find joint angles (&theta;&#8321;, &theta;&#8322;, abd &theta;&#8323;) that result to such wrist center position
 
 ![alt text][image2]
+
+![side A][A]<br/>
+![side B][B]<br/>
+![side C][C]<br/>
+
+Usine cosine law, we can get the three angles a,b, and c: <br/>
+![a_angle][a_angle]<br/>
+![b_angle][b_angle]<br/>
+![c_angle][c_angle]<br/>
+
+![theta1][theta1]<br/>
+![theta 2 and 3][theta2n3]<br/>
 
 ##### Orientation (Involving &theta;&#8324;, &theta;&#8325;, and &theta;&#8326;)
 * Using &theta;&#8321;, &theta;&#8322;, and &theta;&#8323;, compute the rotation matrix R0_3
