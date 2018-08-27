@@ -16,6 +16,7 @@
 [image1]: ./misc_images/misc1.png
 [image2]: ./misc_images/misc3.png
 [image3]: ./misc_images/misc2.png
+[successful_mission]: ./misc_images/done.png
 
 [imageT]: ./misc_images/T.png
 [imageT0_1]: ./misc_images/T0_1.png
@@ -114,7 +115,7 @@ Usine cosine law, we can get the three angles a,b, and c: <br/>
 Here I'll talk about the code, what techniques I used, what worked and why, where the implementation might fail and how I might improve it if I were going to pursue this project further.  
 
 
-And just for fun, another example image:
-![alt text][image3]
+This screenshot below shows the system after a successful pick and place operation :
+![Screenshot of successful mission][successful_mission]
 
 
