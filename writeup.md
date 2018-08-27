@@ -108,7 +108,11 @@ Finally, we can derive the expressions for &theta;&#8321;, &theta;&#8322;, and &
 * Using &theta;&#8321;, &theta;&#8322;, and &theta;&#8323;, compute the rotation matrix R0_3
 * Given the desired orientation of the EE, which can be expressed in terms of its rotation matrix R0_7, we can compute R3_6
 * By comparing the known formula of R3_6 and the computed R3_6 above, we can get the joint angles &theta;&#8324;, &theta;&#8325;, and &theta;&#8326; that result into the desired orientation.
-
+```
+theta4=atan2(R3_6[2,2],-R3_6[0,2])
+theta5=atan2(sqrt(R3_6[0,2]*R3_6[0,2]+R3_6[2,2]*R3_6[2,2]),R3_6[1,2])
+theta6=atan2(-R3_6[1,1],R3_6[1,0])
+```
 
 
 ### Project Implementation
