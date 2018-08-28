@@ -19,6 +19,7 @@
 [successful_mission]: ./misc_images/done.png
 
 [imageT]: ./misc_images/T.png
+[arm_kinematic_diagram]: ./misc_images/arm.jpg
 [imageT0_1]: ./misc_images/T0_1.png
 [imageT1_2]: ./misc_images/T1_2.png
 [imageT2_3]: ./misc_images/T2_3.png
@@ -51,9 +52,9 @@ You're reading it!
 ### Kinematic Analysis
 #### 1. Run the forward_kinematics demo and evaluate the kr210.urdf.xacro file to perform kinematic analysis of Kuka KR210 robot and derive its DH parameters.
 
-Here is an example of how to include an image in your writeup.
 
-![alt text][image1]
+Below is the annotated picture of the kinematic link of the arm. This picture is useful in determining the DH parameters. It is also useful for the further geometrical analysis in the inverse kinematics part.
+![arm_kinematic_diagram][arm_kinematic_diagram]<br/>
 
 Links | alpha(i-1)  | a(i-1)  | d(i-1)  | theta(i)
 ---   | ---         | ---     | ---     | ---
