@@ -1,5 +1,5 @@
 ## Project: Kinematics Pick & Place
-
+![grasping_image][grasping_image]
 **Steps to complete the project:**  
 
 
@@ -17,6 +17,7 @@
 [image2]: ./misc_images/misc3.png
 [image3]: ./misc_images/misc2.png
 [successful_mission]: ./misc_images/done.png
+[grasping_image]: ./misc_images/grasping.png
 
 [imageT]: ./misc_images/T.png
 [arm_kinematic_diagram]: ./misc_images/arm.jpg
@@ -120,9 +121,10 @@ theta6=atan2(-R3_6[1,1],R3_6[1,0])
 
 #### 1. Fill in the `IK_server.py` file with properly commented python code for calculating Inverse Kinematics based on previously performed Kinematic Analysis. Your code must guide the robot to successfully complete 8/10 pick and place cycles. Briefly discuss the code you implemented and your results. 
 
+First, I implemented the code in the IK_debug.py for debugging purpose. Then, I transfer the code to the IK_server.py.
 
-Here I'll talk about the code, what techniques I used, what worked and why, where the implementation might fail and how I might improve it if I were going to pursue this project further.  
-
+##### Future Work
+* Optimize several matrix calculations to reduce the time required for calculation the IK solution
 
 This screenshot below shows the system after a successful pick and place operation :
 ![Screenshot of successful mission][successful_mission]
